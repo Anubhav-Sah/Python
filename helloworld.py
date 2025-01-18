@@ -1,19 +1,29 @@
-#********************About Python********************
+print("Hello world")
 
-# Python is a high-level, interpreted programming language that is widely used for various purposes such as web development
-# Created by Guido Van Russum in 1989-1991
-# Python is dynamically type programming language
-# Python is an object-oriented programming language
-# Python is a multi-paradigm language, meaning it supports multiple programming paradigms such as
-# 1. Object-Oriented Programming (OOP)
-# 2. Functional Programming (FP)
-# 3. Imperative Programming (IP)
-# 4. Procedural Programming (PP)
-# 5. Scripting Programming (SP)
-# Python is a cross-platform language, meaning it can run on multiple operating systems such as Windows, Linux, and macOS.
-# Python is an open-source language, meaning it is free to use and distribute.
-# Python has a vast number of libraries and frameworks that make it suitable for various tasks such as web development, data analysis, machine learning, automation, and more.
-# Python is easy to learn and has a simple syntax, making it a great language for beginners.
-# Python is a versatile language that can be used for a wide range of applications, from simple scripts to complex enterprise-level systems.
-# Python is a rapidly evolving language, with new features and libraries being added regularly.
 
+#if you want to make a multi-line comment then we hava to use triple quotes
+
+
+'''
+hello world 
+this is a multi line comment
+
+'''
+
+
+# Escape Sequence	Description	Example	Output
+# \'	Single quote	print('It\'s Python!')	It's Python!
+# \"	Double quote	print("He said \"Hi\"")	He said "Hi"
+# \\	Backslash	print("C:\\path\\to\\file")	C:\path\to\file
+# \n	Newline	print("Hello\nWorld")	Hello 
+#                                       World
+# \t	Tab	print("Hello\tWorld")	Hello   World
+# \r	Carriage return (moves the cursor to the beginning of the line)	print("Hello\rWorld")	World
+# \b	Backspace	print("Hello\bWorld")	HellWorld
+# \f	Form feed (new page)	print("Hello\fWorld")	Hello World (page break)
+# \v	Vertical tab	print("Hello\vWorld")	Hello World (vertically)
+# \a	ASCII Bell (makes a beep sound)	print("\a")	Beep sound
+# \N{name}	Unicode character by name	print("\N{degree sign}")	°
+# \uXXXX	Unicode character with 16-bit hex value	print("\u00B0")	°
+# \UXXXXXXXX	Unicode character with 32-bit hex value	print("\U0001F600")	😀
+# \xhh	Character with hexadecimal value	print("\x41")	A
