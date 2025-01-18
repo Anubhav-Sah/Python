@@ -1,0 +1,13 @@
+
+To create a file in a folder using command prompt we can use ("  type nul > filename.txt") command. This command will create a new file named "filename.txt" in the current folder. 
+
+If the file already exists, it will be overwritten. If you want to append to the file instead of overwriting it, you can use the following command: ("  type filename.txt >> newfilename.txt") command. This command will append the content of the file " filename.txt" to the end of the file "newfilename.txt".
+
+To create a new folder in a directory using command prompt we can use ("  mkdir foldername") command. This command will create a new folder named "foldername" in the current directory. 
+ 
+To delete a file in a folder using command prompt we can use ("  del filename.txt") command . This command will delete the file named "filename.txt" in the current folder. 
+
+If you want to delete multiple files at once, you can use the following command: ("  del filename1.txt filename2.txt") command. This command will delete the files named "filename1.txt" and " filename2.txt" in the current folder. 
+
+
+To delete a folder in a directory using command prompt we can use ("  rmdir foldername") command. This command will delete the folder named "foldername" in the current directory. If the folder is not empty, you will be prompted to confirm that you want to delete it. 
