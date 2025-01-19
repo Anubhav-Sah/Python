@@ -11,6 +11,9 @@ this is a multi line comment
 '''
 
 
+
+#******************Escape Sequences*******************
+
 # Escape Sequence	Description	Example	Output
 # \'	Single quote	print('It\'s Python!')	It's Python!
 # \"	Double quote	print("He said \"Hi\"")	He said "Hi"
@@ -27,3 +30,24 @@ this is a multi line comment
 # \uXXXX	Unicode character with 16-bit hex value	print("\u00B0")	°
 # \UXXXXXXXX	Unicode character with 32-bit hex value	print("\U0001F600")	😀
 # \xhh	Character with hexadecimal value	print("\x41")	A
+#we can add nultiple escape sequences in a single string
+
+
+
+#we can sapareate the value in print function using comma
+
+
+print("Hello", "World", "Python")
+
+print("Anubhav","M",19)
+
+#Seperator in print function
+#seperator is used to separete the value in print function
+
+print("Anubhav","M",19, sep=("-"))
+
+
+# end in print function
+#end is used to add a string at the end of the print function
+print("Hello ", end= "")
+print("World")#this will not print anything
