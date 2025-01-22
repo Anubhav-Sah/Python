@@ -37,3 +37,14 @@ for character in multiLineString:
     print(character)
 
 
+names ="Anubhav"
+
+
+print(len(names))# use to count length
+
+print(name[::-1])
+
+
+nm ="Harry"
+print(nm[-4:-2])
+
